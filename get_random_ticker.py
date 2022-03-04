@@ -9,6 +9,7 @@ symbol_list_us = ss.get_symbol_list(market="US", symbols_only=True)
 symbol_number = random.randint(1, len(symbol_list_us))
 ticker = symbol_list_us[symbol_number]
 print(ticker)
-yf_data = yf.Ticker(ticker)
+"""yf_data = yf.Ticker(ticker)
 
 print(yf_data.history(start="2010-01-01", end="2020-07-21").head())
+"""
